@@ -39,13 +39,13 @@ public class MochilaFracionaria {
 
     public static void main(String[] args) {
         List<Item> itens = Arrays.asList(
-            new Item(80, 10),
-            new Item(120, 20),
-            new Item(180, 30),
-            new Item(160, 40)
+            new Item(100, 20),  
+            new Item(60, 10),   
+            new Item(120, 30),  
+            new Item(80, 40) 
         );
 
-        double capacidade = 60;
+        double capacidade = 40;
         double resultado = resolverMochilaFracionaria(itens, capacidade);
 
         System.out.printf("Valor total na mochila: %.2f\n", resultado);
